@@ -1,0 +1,18 @@
+<header class="header">
+  <nav class="nav bd-grid">
+    <div>
+      <a href="" class="nav__logo">Giovana</a>
+    </div>
+    <!-- <div class="nav__menu" id="nav__menu" *ngIf="toggle"> -->
+    <div class="nav__menu" id="nav__menu" [ngStyle]="{'right' : toggle ? '0' : '-100%' }">
+      <ul class=" nav_list">
+        <li class="nav__item" *ngFor="let item of header" (mouseover)="changeActiveClass(item.name)">
+          <a class="nav__link" [ngClass]="item.isActive" href="{{item.link}}">{{item.name}}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav__toggle" id="nav-toggle" (click)="changeToggle()">
+      <i class='bx bx-menu'></i>
+    </div>
+  </nav>
+</header>
