@@ -9,10 +9,10 @@ export class HeaderComponent implements OnInit {
 
   private header: Object = [
     { isActive: 'active', link: "#home", name: "Home" },
-    { isActive: '', link: "#sobre", name: "Sobre" },
-    { isActive: '', link: "#habilidades", name: "Habilidades" },
-    { isActive: '', link: "#experiencia", name: "Experiência" },
-    { isActive: '', link: "#contato", name: "Contato" }
+    { isActive: '', link: "#about", name: "Sobre" },
+    { isActive: '', link: "#skills", name: "Formação" },
+    { isActive: '', link: "#xp", name: "Experiência" },
+    { isActive: '', link: "#contact", name: "Contato" }
   ];
 
   private toggle: boolean = false;

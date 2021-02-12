@@ -7,7 +7,7 @@
     <div class="nav__menu" id="nav__menu" [ngStyle]="{'right' : toggle ? '0' : '-100%' }">
       <ul class=" nav_list">
         <li class="nav__item" *ngFor="let item of header" (mouseover)="changeActiveClass(item.name)">
-          <a class="nav__link" [ngClass]="item.isActive" href="{{item.link}}">{{item.name}}</a>
+          <a class="nav__link" [ngClass]="item.isActive" href="{{item.link}}" (click)="changeToggle()">{{item.name}}</a>
         </li>
       </ul>
     </div>

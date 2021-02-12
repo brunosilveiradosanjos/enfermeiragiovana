@@ -1,0 +1,16 @@
+.about__container {
+  row-gap: 1rem;
+  text-align: justify;
+}
+
+.about__subtitle {
+  margin-bottom: var(--mb-2);
+}
+
+.about__img {
+  justify-self: center;
+  img {
+    width: 200px;
+    border-radius: 0.5rem;
+  }
+}

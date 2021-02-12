@@ -44,7 +44,7 @@ body {
   color: var(--second-color);
 }
 
-.section_title {
+.section-title {
   position: relative;
   font-size: var(--h2-font-size);
   color: var(--first-color);
@@ -53,7 +53,7 @@ body {
   text-align: center;
 }
 
-.section_title::after {
+.section-title::after {
   position: absolute;
   content: "";
   width: 64px;
