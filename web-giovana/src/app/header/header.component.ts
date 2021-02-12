@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  private header: Array<any> = [
-    { isActive: 'active', link: "#", name: "Menu" },
+  private header: Object = [
+    { isActive: 'active', link: "#home", name: "Home" },
     { isActive: '', link: "#sobre", name: "Sobre" },
     { isActive: '', link: "#habilidades", name: "Habilidades" },
     { isActive: '', link: "#experiencia", name: "Experiência" },

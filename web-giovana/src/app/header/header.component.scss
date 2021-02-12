@@ -1,32 +1,3 @@
-h1,
-h2,
-p {
-  margin: 0;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.bd-grid {
-  max-width: 90vw;
-  display: grid;
-  grid-template-columns: 100vw;
-  grid-column-gap: 2rem;
-  width: 100vw;
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
-}
-
 .header {
   width: 100vw;
   position: fixed;
